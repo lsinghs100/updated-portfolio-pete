@@ -1,0 +1,136 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  margin: 0; /* Add this to remove default body margin */
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Logo and Navigation */
+header h1, header nav {
+  display: inline; /* Make them inline to be on the same line */
+}
+
+header {
+  display: flex; /* Use flexbox for vertical and horizontal alignment */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+}
+
+nav a {
+  margin: 0 10px; /* Add some space between navigation links */
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  margin-left: 20px;
+  text-align: left;
+}
+
+/* Additional style for Pete's Background section */
+#about h3 {
+  text-align: center;
+}
+
+#about section {
+  margin-top: 20px;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project {
+  text-align: center;
+  width: 30%; /* Adjust the width as needed */
+}
+
+.project img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project p {
+  font-size: 14px;
+}
